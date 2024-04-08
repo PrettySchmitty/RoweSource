@@ -5550,6 +5550,7 @@ const struct BaseStats gBaseStats[] =
         #endif
         .bodyColor = BODY_COLOR_BLACK,
         .noFlip = FALSE,
+		.flags = F_GROUND_INMUNITY,
     },
 
     [SPECIES_SLOWKING] =
